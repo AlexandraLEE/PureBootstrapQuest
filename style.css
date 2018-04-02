@@ -6,19 +6,12 @@
     }
     
     
-    @font-face {
+@font-face {
     font-family: 'Aniron Bold';
     font-style: normal;
     font-weight: normal;
     src: local('Aniron Bold'), url('anirb___.woff'), format('woff');
-    }  
-
-@font-face {
-    font-family: 'Tengwar Annatar';
-    font-style: normal;
-    font-weight: bold;
-    src: local('tengwar_annatar'), url('tngani.ttf'), format('ttf');
-}    
+    }   
 
 .topbar {
     background-color: rgb(255, 102, 0);
@@ -53,7 +46,7 @@ ul li:last-child {
     width: auto;
     margin: none;
     padding: none;
-    font-family: 'Aniron Bold', cursive;
+    font-family: 'Aniron', cursive;
 }
 
 img.sinimage {
@@ -75,8 +68,17 @@ span.textshade {
 .GoodFellows {
     background-image: url(http://res.cloudinary.com/agent99/image/upload/v1522665724/QUETE:%20Int%C3%A9gration-Finale/bg_light.png);
     text-align: center;
+    height: 500px;
+    font-family: 'Aniron', cursive;
 }
 
-p span.decoration {
-    font-family: 'Tengwar Annatar';
+.the-quote {
+    margin: 30px;
+    padding: 30px;
 }
+
+.decoration {
+    font-size: 24px;
+    font-weight: bold;
+}
+
