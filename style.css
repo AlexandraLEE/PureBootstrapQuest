@@ -6,14 +6,14 @@
 }
 
 @font-face {
-    font-family: aniron_bold;
+    font-family: "aniron_bold";
     font-style: normal;
     font-weight: bold;
     src: url(/fonts/aniron/anirb.ttf);
 }
 
 @font-face {
-    font-family: tengwar;
+    font-family: "tengwar";
     font-style: normal;
     font-weight: normal;
     src: url(fonts/tengwar_annatar/tegani.ttf);
