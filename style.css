@@ -17,18 +17,19 @@
     height: 60px;
 }
 
-.topbar a:hover{
-    text-decoration: underline white !important;
+#thetopbar {
+    justify-content: flex-end;
 }
 
-body {
-    background-image: url("http://res.cloudinary.com/agent99/image/upload/c_scale,h_4000,w_1300/v1522665723/QUETE:%20Int%C3%A9gration-Finale/bg_dark.png");
+li.topnavitems a:hover{
+    text-decoration: underline white !important;
 }
 
 img.preciouslogo {
     height: 30px;
     width: 250px;
     margin-top: 13px;
+    color: white !important;
 }
 
 li.topnavitems a{
@@ -41,15 +42,12 @@ li.topnavitems a{
     text-decoration-color: white !important;
 }
 
-ul li:last-child {
+li.topnavitems.special a {
     border: 0;
 }
 
 .carousel-item {
     max-height: 400px;
-    width: auto;
-    margin: none;
-    padding: none;
     font-family: 'Aniron', cursive;
 }
 
@@ -82,8 +80,10 @@ span.textshade {
 }
 
 .decoration {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
+    color: orangered;
+    src: url(/tengwar_annatar/tngani.ttf);
 }
 
 .smdeco {
@@ -112,14 +112,15 @@ a.nav-link.active.bot {
     font-family: 'Aniron', cursive;
     background-color: black;
     color: white;
+    text-align: left;
 }
 
-img 
+.img-thumbnail 
 {
     opacity: 0.5;
 }
 
-img:hover 
+.img-thumbnail:hover 
 {
     opacity: 1.0;
 }
@@ -187,6 +188,9 @@ img:hover
 /* to make the hamburger appear only at smaller screen sizes */ 
 @media screen and (max-width: 991px){
     .nav-link span{
+        display: none;
+    }
+    .gorgeouscarousel {
         display: none;
     }
 }
