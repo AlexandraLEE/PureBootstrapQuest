@@ -16,7 +16,7 @@
     font-family: "Tengwar";
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/tegani.ttf') format('truetype');
+    src: url('../fonts/tngani.ttf') format('truetype');
 }
 
 @font-face {
@@ -26,43 +26,44 @@
     src: url('../fonts/partybusiness.ttf');
 }
 
-.topbar {
-    background-color: rgb(255, 102, 0) !important;
-    height: 60px;
+/* nav bar style */
+
+.navbar {
+    background-color: #FF5F01;
 }
 
-#thetopbar {
+#topbar {
     justify-content: flex-end;
 }
 
-li.topnavitems a:hover {
-    text-decoration: underline white !important;
+#topbar a {
+    font-family: "Aniron" !important;
+    font-style: normal;
+    color: white;
 }
 
-img.preciouslogo {
-    height: 30px;
-    width: 250px;
-    margin-top: 13px;
-    color: white !important;
+.pipe {
+    margin-left: 0.1em;
+    margin-right: 0.1em;
 }
 
-li.topnavitems a {
-    color: white !important;
-    margin-top: 14px;
-    padding: 0 1em;
-    text-align: center;
-    border-right: 1px solid white;
-    font-family: "Aniron", cursive;
-    text-decoration-color: white !important;
+#topbar .under:hover {
+    border-bottom: 2px solid white;
 }
 
-li.topnavitems.special a {
-    border: 0;
-}
+/* end of nav bar coding */
 
 .carousel-item {
     max-height: 400px;
     font-family: "Party", cursive;
+}
+
+.carousel-caption h1 {
+    font-size: 4em;
+}
+
+.carousel-caption h3 {
+    font-size: 3em;
 }
 
 img.sinimage {
@@ -83,27 +84,25 @@ span.textshade {
 
 .GoodFellows {
     background-image: url('../images/bg_light.png');
-    text-align: center;
-    height: 600px;
+    height: 730px;
     font-family: 'Aniron', cursive;
 }
 
 .the-quote {
     margin: 20px;
     padding: 20px;
+    text-align: center;
+    font-size: 1.3em;
 }
 
 span.decoration {
-    font-size: 20px;
-    font-weight: bold;
-    color: orangered;
     font-family: "Tengwar";
+    color: orangered;
+    font-size: 1.3em;
 }
 
-.smdeco {
-    font-size: 20px;
-    font-weight: normal;
-    font-family: "Tengwar";
+.fellowstitles {
+    justify-content: center;
 }
 
 a.botnavitems {
@@ -113,7 +112,7 @@ a.botnavitems {
 div.fellows-men a:hover {
     text-decoration: underline orangered !important;
     color: orangered !important;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .fellows-men {
@@ -125,73 +124,129 @@ div.fellows-men a:hover {
     justify-content: space-around;
 }
 
-.para {
-    font-family: 'Aniron', cursive;
-    background-color: black;
-    color: white;
-    text-align: left;
+.fellowstitles .decoration {
+    font-family: 'Tengwar';
+    font-size: 1.5vw;
+    color: orangered;
+    display: none;
 }
 
-.img-thumbnail {
-    opacity: 0.5;
+.fellowstitles a:hover {
+    color: orangered;
 }
 
-.img-thumbnail:hover {
-    opacity: 1.0;
+.fellowstitles a:hover .decoration {
+    display: inline;
+}
+
+.wanted {
+    z-index: 0;
+    height: 30vw;
+    border: 5px solid black;
+    padding: 0 0 0 0;
+    margin: 25px 25px 25px 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Party';
+}
+
+.flou {
+    background-color: rgba(94, 94, 94, 0.5);
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.Gandalfimg {
+    background-image: url("images/gandalf.png");
+}
+
+.aragimg {
+    background-image: url("images/aragorn.png");
+}
+
+.gimimg {
+    background-image: url("images/gimli.png");
 }
 
 .reward {
     position: absolute;
-    top: 0;
-    margin: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: rgba(192, 192, 192, 0.5);
-    border: 1.5px black;
-    border-radius: 12px;
-    font: 3.5em, 'Aniron', cursive;
-    color: black;
-}
-
-.amount {
-    color: rgb(255, 165, 0);
-    font-weight: bold;
-}
-
-.goodguys :hover .reward {
-    display: none;
-}
-
-.name {
-    font: 4em, 'Aniron', cursive;
+    left: 10%;
+    top: 10%;
+    height: 20%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 2.5vw;
     text-align: center;
-    position: absolute;
-    top: 150px;
-    left: 110px;
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-family: "Party";
 }
 
-.goodguys :hover .name {
-    font: 2em times, serif;
-    margin-bottom: 20px;
-    position: absolute;
-    text-align: center;
-    top: 200px;
-    left: 110px;
-    font-weight: bold;
-}
-
-.dead {
+.reward span {
     color: orange;
 }
 
-.deadname {
-    text-decoration-line: line-through, orange;
+.name {
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    font-size: 4vw;
+    color: white;
+}
+
+.nameGimli {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    font-size: 4vw;
+    color: white;
+}
+
+.dead {
+    position: absolute;
+    left: 34%;
+    top: 15%;
+    height: 20%;
+    width: 40%;
+    font-size: 3.5vw;
+    color: orange;
+}
+
+.infos {
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 20%;
+    font-size: 2.5vw;
+    padding-left: 10px;
+}
+
+.wanted:hover .reward {
+    display: none;
+}
+
+.wanted:hover .flou {
+    display: none;
+}
+
+.wanted:hover .dead {
+    display: none;
+}
+
+.wanted:hover .infos {
+    display: none;
+}
+
+.wanted:hover .name {
+    top: 80%;
+    transition-duration: 1s;
+}
+
+.wanted:hover .nameGimli {
+    top: 80%;
+    transition-duration: 1s;
 }
 
 /* to make the hamburger appear only at smaller screen sizes */
@@ -204,7 +259,165 @@ div.fellows-men a:hover {
         display: none;
     }
     li.topnavitems {
-        border: none;
         color: black;
+    }
+    .fellowstitles {
+        display: none;
+    }
+}
+
+.wanted {
+    z-index: 0;
+    height: 35vw;
+    border: 5px solid black;
+    padding: 0 0 0 0;
+    margin: 25px 25px 25px 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Party';
+}
+
+.flou {
+    background-color: rgba(94, 94, 94, 0.5);
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.gandalfimg {
+    background-image: url("../images/gandalf.png");
+}
+
+.aragimg {
+    background-image: url("../images/aragorn.png");
+}
+
+.gimimg {
+    background-image: url("../images/gimli.png");
+}
+
+.reward {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    height: 20%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.reward span {
+    color: orange;
+}
+
+.Gname {
+    position: absolute;
+    top: 45%;
+    left: 23%;
+    font-size: 4vw;
+    color: white;
+}
+
+.name {
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    font-size: 4vw;
+    color: white;
+}
+
+.nameGimli {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    font-size: 4vw;
+    color: white;
+}
+
+.dead {
+    position: absolute;
+    left: 34%;
+    top: 15%;
+    height: 20%;
+    width: 40%;
+    font-size: 3.5vw;
+    color: orange;
+}
+
+.infos {
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 20%;
+    font-size: 2.5vw;
+    padding-left: 10px;
+}
+
+.wanted:hover .reward {
+    display: none;
+}
+
+.wanted:hover .flou {
+    display: none;
+}
+
+.wanted:hover .dead {
+    display: none;
+}
+
+.wanted:hover .infos {
+    display: none;
+}
+
+.wanted:hover .Gname {
+    top: 80%;
+    transition-duration: 1s;
+}
+
+.wanted:hover .name {
+    top: 80%;
+    transition-duration: 1s;
+}
+
+.wanted:hover .nameGimli {
+    top: 80%;
+    transition-duration: 1s;
+}
+
+@media screen and (max-width: 768px) {
+    .wanted {
+        height: 90vw;
+    }
+
+    .Gname {
+        font-size: 10vw;
+    }
+    .name {
+        font-size: 10vw;
+    }
+    .nameGimli {
+        font-size: 10vw;
+    }
+    .infos {
+        font-size: 6vw;
+    }
+    .reward {
+        font-size: 6vw;
+        background-color: none;
+    }
+    .dead {
+        font-size: 10vw;
+    }
+    
+}
+
+@media screen and (max-width: 574px){
+    .wanted {
+        height: 90vw;
     }
 }
