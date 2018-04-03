@@ -23,7 +23,7 @@
     font-family: "Party";
     font-style: normal;
     font-weight: normal;
-    src: url("../fonts/partybusiness.ttf");
+    src: url('../fonts/partybusiness.ttf');
 }
 
 .topbar {
@@ -52,7 +52,7 @@ li.topnavitems a {
     padding: 0 1em;
     text-align: center;
     border-right: 1px solid white;
-    font-family: aniron, cursive;
+    font-family: "Aniron", cursive;
     text-decoration-color: white !important;
 }
 
@@ -62,7 +62,7 @@ li.topnavitems.special a {
 
 .carousel-item {
     max-height: 400px;
-    font-family: 'Aniron Bold', cursive;
+    font-family: "Party", cursive;
 }
 
 img.sinimage {
@@ -82,7 +82,7 @@ span.textshade {
 }
 
 .GoodFellows {
-    background-image: url(http://res.cloudinary.com/agent99/image/upload/v1522665724/QUETE:%20Int%C3%A9gration-Finale/bg_light.png);
+    background-image: url('/images/bg_light.png');
     text-align: center;
     height: 600px;
     font-family: 'Aniron', cursive;
@@ -202,5 +202,9 @@ div.fellows-men a:hover {
     }
     .gorgeouscarousel {
         display: none;
+    }
+    li.topnavitems {
+        border: none;
+        color: black;
     }
 }
