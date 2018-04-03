@@ -1,22 +1,22 @@
 @font-face {
-    font-family: "aniron";
+    font-family: "Aniron";
     font-style: normal;
     font-weight: normal;
-    src: url("/fonts/aniron/anicm.ttf");
+    src: url("css/fonts/anicm.ttf");
 }
 
 @font-face {
-    font-family: "aniron_bold";
+    font-family: "Aniron Bold";
     font-style: normal;
     font-weight: bold;
-    src: url(/fonts/aniron/anirb.ttf);
+    src: url("css/fonts/anirb.ttf");
 }
 
 @font-face {
-    font-family: "tengwar";
+    font-family: "Tengwar";
     font-style: normal;
     font-weight: normal;
-    src: url(fonts/tengwar_annatar/tegani.ttf);
+    src: url("css/fonts/tegani.ttf");
 }
 
 .topbar {
@@ -55,7 +55,7 @@ li.topnavitems.special a {
 
 .carousel-item {
     max-height: 400px;
-    font-family: 'aniron_bold', cursive;
+    font-family: 'Aniron Bold', cursive;
 }
 
 img.sinimage {
@@ -78,7 +78,7 @@ span.textshade {
     background-image: url(http://res.cloudinary.com/agent99/image/upload/v1522665724/QUETE:%20Int%C3%A9gration-Finale/bg_light.png);
     text-align: center;
     height: 600px;
-    font-family: 'aniron', cursive;
+    font-family: 'Aniron', cursive;
 }
 
 .the-quote {
@@ -90,13 +90,13 @@ span.decoration {
     font-size: 20px;
     font-weight: bold;
     color: orangered;
-    font-family: "tengwar";
+    font-family: "Tengwar";
 }
 
 .smdeco {
     font-size: 20px;
     font-weight: bold;
-    src: url("../fonts/tengwar_annatar/tngani.ttf");
+    font-family: "Tengwar";
 }
 
 .botnavitems a {
@@ -117,7 +117,7 @@ a.nav-link.active.bot {
 }
 
 .para {
-    font-family: 'aniron', cursive;
+    font-family: 'Aniron', cursive;
     background-color: black;
     color: white;
     text-align: left;
@@ -163,7 +163,7 @@ a.nav-link.active.bot {
 
 .name
 {
-  font: 4em, 'aniron', cursive;
+  font: 4em, 'Aniron', cursive;
   text-align: center;  
   position: absolute;
   top: 150px;
