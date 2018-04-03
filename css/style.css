@@ -69,17 +69,13 @@
 img.sinimage {
     height: 400px;
     width: auto;
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
 }
 
 .gorgeouscarousel.carousel slide {
-    margin: none;
-    padding: none;
-}
-
-span.textshade {
-    text-shadow: 3px, 3px, 3px, black;
+    margin: 0;
+    padding: 0;
 }
 
 .GoodFellows {
@@ -408,7 +404,6 @@ div.fellows-men a:hover {
     }
     .reward {
         font-size: 6vw;
-        background-color: none;
     }
     .dead {
         font-size: 10vw;
