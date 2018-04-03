@@ -82,7 +82,7 @@ span.textshade {
 }
 
 .GoodFellows {
-    background-image: url('/images/bg_light.png');
+    background-image: url('../images/bg_light.png');
     text-align: center;
     height: 600px;
     font-family: 'Aniron', cursive;
