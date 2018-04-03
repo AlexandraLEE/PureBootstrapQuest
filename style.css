@@ -1,15 +1,22 @@
 @font-face {
-    font-family: 'Aniron';
+    font-family: "Aniron";
     font-style: normal;
     font-weight: normal;
-    src: local('Aniron'), url('anirm___.woff') format('woff');
+    src: url("../fonts/Aniron/anicm.ttf");
 }
 
 @font-face {
-    font-family: 'Aniron Bold';
+    font-family: "Aniron_Bold";
     font-style: normal;
     font-weight: normal;
-    src: local('Aniron Bold'), url('anirb___.woff'), format('woff');
+    src: url("../fonts/Aniron/anirb.ttf");
+}
+
+@font-face {
+    font-family: "Tengwar_Annatar";
+    font-style: normal;
+    font-weight: normal;
+    src: url("..fonts/tengwar_annatar/tegani.ttf");
 }
 
 .topbar {
@@ -79,16 +86,17 @@ span.textshade {
     padding: 20px;
 }
 
-.decoration {
+span.decoration {
     font-size: 20px;
     font-weight: bold;
     color: orangered;
-    src: url(/tengwar_annatar/tngani.ttf);
+    font-family: "Tengwar_Annatar";
 }
 
 .smdeco {
     font-size: 20px;
     font-weight: bold;
+    src: url("../fonts/tengwar_annatar/tngani.ttf");
 }
 
 .botnavitems a {
