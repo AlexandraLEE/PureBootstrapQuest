@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Meddon" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <script src="main.js"></script>
 </head>
 
@@ -105,34 +105,29 @@
     
     <div class="container-fluid GoodFellows">
         <div class="row quote-title">
-            <div class="col-md-11 the-quote">
+            <div class="col-md-12 the-quote">
                 <p class="quote">
-                    <span class="decoration">W </span> FELLOWS WANTED DEAD
+                    <span class="decoration">W </span><strong> FELLOWS WANTED DEAD</strong>
                     <span class="smallerquote"> (or ALIVE, if you want to eat them later.) </span>
                     <span class="decoration"> X</span>
                 </p>
             </div>
         </div>
-        <div class="row fellowsmenu">
-            <div class="col-md-10 offset-md-2 fellows-men">
-                <ul class="nav">
-                    <li class="nav-item botnavitems">
-                        <a class="nav-link" href="#">Most Wanted</a>
-                    </li>
-                    <li class="nav-item botnavitems">
-                        <a class="nav-link active bot" href="#">
-                            <span class="smdeco">&#9795 </span> Most Dangerous
-                            <span class="smdeco"> &#9795</span>
-                        </a>
-                    </li>
-                    <li class="nav-item botnavitems">
-                        <a class="nav-link" href="#">Already Captured</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="row fellowstitles">
+            <div class="col-8 col-md-4 fellows-men">
+                <a class="nav-link botnavitems" href="#">Most Wanted</a>
+            </div>    
+            <div class="col-8 col-md-4 fellows-men">  
+                <a class="nav-link active botnavitems" href="#"><span class="smdeco">V 
+                </span> Most Dangerous <span class="smdeco"> X</span>
+                </a>
+            </div>     
+            <div class="col-8 col-md-4 fellows-men">  
+                <a class="nav-link botnavitems bot" href="#">Already Captured</a>
+            </div>      
         </div>
         <div class="row threefellows">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <img src="http://images.innoveduc.fr/integration_gandalf.png" alt="Gandalf" class="img-thumbnail goodguys">
                 <p class="reward">reward
                     <span class="amount"> 1000 </span>
@@ -140,7 +135,7 @@
                 <p class="name">Gandalf</p>
                 <p class="para"> a very dangerous wiz and balrog killer --</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <img src="http://res.cloudinary.com/agent99/image/upload/v1522665726/QUETE:%20Int%C3%A9gration-Finale/aragorn.png" alt="Aragorn"
                     class="img-thumbnail goodguys">
                 <p class="reward">reward
@@ -149,7 +144,7 @@
                 <p class="name">Aragorn</p>
                 <p class="para"> Sauron's finger says his sword is dangerous --</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <img src="http://res.cloudinary.com/agent99/image/upload/v1522665725/QUETE:%20Int%C3%A9gration-Finale/gimli.png" alt="Gimli"
                     class="img-thumbnail goodguys">
                 <p class="reward dead">dead
