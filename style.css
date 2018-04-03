@@ -1,22 +1,22 @@
 @font-face {
-    font-family: "Aniron";
+    font-family: "aniron";
     font-style: normal;
     font-weight: normal;
-    src: url("../fonts/Aniron/anicm.ttf");
+    src: url("/fonts/aniron/anicm.ttf");
 }
 
 @font-face {
-    font-family: "Aniron_Bold";
+    font-family: aniron_bold;
     font-style: normal;
-    font-weight: normal;
-    src: url("../fonts/Aniron/anirb.ttf");
+    font-weight: bold;
+    src: url(/fonts/aniron/anirb.ttf);
 }
 
 @font-face {
-    font-family: "Tengwar_Annatar";
+    font-family: tengwar;
     font-style: normal;
     font-weight: normal;
-    src: url("..fonts/tengwar_annatar/tegani.ttf");
+    src: url(fonts/tengwar_annatar/tegani.ttf);
 }
 
 .topbar {
@@ -45,7 +45,7 @@ li.topnavitems a{
     padding: 0 1em;
     text-align: center;
     border-right: 1px solid white;
-    font-family: 'Aniron', cursive;
+    font-family: aniron, cursive;
     text-decoration-color: white !important;
 }
 
@@ -55,7 +55,7 @@ li.topnavitems.special a {
 
 .carousel-item {
     max-height: 400px;
-    font-family: 'Aniron', cursive;
+    font-family: 'aniron_bold', cursive;
 }
 
 img.sinimage {
@@ -78,7 +78,7 @@ span.textshade {
     background-image: url(http://res.cloudinary.com/agent99/image/upload/v1522665724/QUETE:%20Int%C3%A9gration-Finale/bg_light.png);
     text-align: center;
     height: 600px;
-    font-family: 'Aniron', cursive;
+    font-family: 'aniron', cursive;
 }
 
 .the-quote {
@@ -90,7 +90,7 @@ span.decoration {
     font-size: 20px;
     font-weight: bold;
     color: orangered;
-    font-family: "Tengwar_Annatar";
+    font-family: "tengwar";
 }
 
 .smdeco {
@@ -117,7 +117,7 @@ a.nav-link.active.bot {
 }
 
 .para {
-    font-family: 'Aniron', cursive;
+    font-family: 'aniron', cursive;
     background-color: black;
     color: white;
     text-align: left;
@@ -146,7 +146,7 @@ a.nav-link.active.bot {
   background-color: rgba(192,192,192,0.5);
   border: 1.5px black;
   border-radius: 12px;
-  font: 3.5em, 'Aniron', cursive;
+  font: 3.5em, 'aniron', cursive;
   color: black;
 }  
 
@@ -163,7 +163,7 @@ a.nav-link.active.bot {
 
 .name
 {
-  font: 4em, 'Aniron', cursive;
+  font: 4em, 'aniron', cursive;
   text-align: center;  
   position: absolute;
   top: 150px;
