@@ -13,18 +13,22 @@
 }
 
 .topbar {
-    background-color: rgb(255, 102, 0);
+    background-color: rgb(255, 102, 0) !important;
     height: 60px;
 }
 
+.topbar a:hover{
+    text-decoration: underline white !important;
+}
+
 body {
-    background-image: url(http://res.cloudinary.com/agent99/image/upload/c_scale,h_4000,w_1300/v1522665723/QUETE:%20Int%C3%A9gration-Finale/bg_dark.png);
+    background-image: url("http://res.cloudinary.com/agent99/image/upload/c_scale,h_4000,w_1300/v1522665723/QUETE:%20Int%C3%A9gration-Finale/bg_dark.png");
 }
 
 img.preciouslogo {
     height: 30px;
     width: 250px;
-    margin-top: 15px;
+    margin-top: 13px;
 }
 
 li.topnavitems a{
@@ -177,6 +181,12 @@ img:hover
 }
 
 .deadname {
-    text-decoration-line: line-through;
-    color: orange;
+    text-decoration-line: line-through, orange;
+}
+
+/* to make the hamburger appear only at smaller screen sizes */ 
+@media screen and (max-width: 991px){
+    .nav-link span{
+        display: none;
+    }
 }
