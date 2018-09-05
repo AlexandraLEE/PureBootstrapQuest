@@ -1,2 +1,2 @@
 # PureBootstrapQuest
-This repository fulfills the quest, 'Integration Finale' for WCS. 
+This repository fulfills the quest, 'Integration Finale'. 
